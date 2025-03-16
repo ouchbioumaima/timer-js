@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    flex-direction: column;
+}
+#timer {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#start { background-color: #3d147a; color: white; }
+#pause { background-color: #862a66; color: white; }
+#reset { background-color: #e31888; color: white; }
